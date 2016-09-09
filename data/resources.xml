@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "fonts" />
+	<font id="arial" file="arial_20.fnt" />	
+	<font id="arial_huge" file="arial_70.fnt" />	
+	<font id="arial_small" file="arial_14.fnt" />	
+
+	<set path = "images\" />
+	<atlas>
+    <image file="background.png"/>
+    <image file="overlay.png"/>
+    <image file="board.png" />
+    <image file="board_square_w.png" />
+    <image file="board_square_b.png" />
+	</atlas>
+
+  <set path = "images\pieces\" />
+	<atlas>
+    <image file="bishop_b.png"/>
+    <image file="bishop_w.png" />
+    <image file="king_b.png" />
+    <image file="king_w.png" />
+    <image file="knight_b.png" />
+    <image file="knight_w.png" />
+    <image file="pawn_b.png" />
+    <image file="pawn_w.png" />
+    <image file="queen_b.png" />
+    <image file="queen_w.png" />
+    <image file="rook_b.png" />
+    <image file="rook_w.png" />
+	</atlas>
+</resources>
