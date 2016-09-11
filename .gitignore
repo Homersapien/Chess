@@ -48,10 +48,15 @@ Temporary Items
 
 # Visual Studio files
 source/.vs
-source/Debug_v120_xp
-source/Release_v120_xp
-*.vcxproj.user
+source/Debug_*
+source/Release_*
 *.ipch
 *.sdf
 *.suo
 *.opensdf
+
+# Force to include the Oxygine framework
+!oxygine-flow/**
+!oxygine-framework/**
+!oxygine-sound/**
+!SDL/**

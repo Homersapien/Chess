@@ -1,8 +1,17 @@
+/**
+    Attention!
+    This file initializes the Oxygine engine.
+    If you just started here and don't understand the code completely, feel free to come back later.
+    You can start from example.cpp and example.h, which main functions are called from here.
+*/
 #include "core/oxygine.h"
 #include "Stage.h"
 #include "DebugActor.h"
+#include "example.h"
+
 
 using namespace oxygine;
+
 
 // This function is called each frame
 int mainloop()
@@ -13,7 +22,7 @@ int mainloop()
     bool done = core::update();
 
     // It gets passed to our example game implementation
-    //example_update();
+    example_update();
 
     // Update our stage
     // Update all actors. Actor::update will also be called for all its children
@@ -49,7 +58,7 @@ void run()
 #endif
 
 
-    //example_preinit();
+    example_preinit();
     core::init(&desc);
 
 
@@ -62,7 +71,7 @@ void run()
     DebugActor::show();
 
     // Initializes our example game. See example.cpp
-    //example_init();
+    example_init();
 
 #ifdef EMSCRIPTEN
     /*
@@ -100,7 +109,7 @@ void run()
     */
 
     // See example.cpp for the shutdown function implementation
-    //example_destroy();
+    example_destroy();
 
 
     //renderer.cleanup();
