@@ -1,0 +1,230 @@
+﻿Build started 11.09.2016 16:48:58.
+     1>Project "E:\Repositories\Git\Chess\oxygine-framework\oxygine\SDL\win32\oxygine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\ /I..\..\third_party\win32\zlib /I..\..\third_party\win32\libjpeg /I..\..\third_party\win32\libpng /I..\..\..\..\SDL\include\ /I..\..\third_party\win32\OGLES /I..\..\third_party\win32\glew /I../../third_party/win32/pthreads/include /I..\..\third_party\win32\curl /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D OXYGINE_SDL /D _WINDOWS /D OX_HAVE_LIBPNG /D OX_HAVE_LIBJPEG /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_v120_xp\\" /Fd"Debug_v120_xp\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Actor.cpp ..\..\src\AnimationFrame.cpp ..\..\src\AsyncTask.cpp ..\..\src\Blocking.cpp ..\..\src\Box9Sprite.cpp ..\..\src\Button.cpp ..\..\src\ClipRectActor.cpp ..\..\src\Clock.cpp ..\..\src\ColorRectSprite.cpp ..\..\src\core\coroutines.cpp ..\..\src\core\curl\HttpRequestCurlTask.cpp ..\..\src\core\file.cpp ..\..\src\core\FileSystem.cpp ..\..\src\core\gl\NativeTextureGLES.cpp ..\..\src\core\gl\oxgl.cpp ..\..\src\core\gl\ShaderProgramGL.cpp ..\..\src\core\gl\VertexDeclarationGL.cpp ..\..\src\core\gl\VideoDriverGL.cpp ..\..\src\core\gl\VideoDriverGLES20.cpp ..\..\src\core\ImageData.cpp ..\..\src\core\ImageDataOperations.cpp ..\..\src\core\log.cpp ..\..\src\core\Mem2Native.cpp ..\..\src\core\Mutex.cpp ..\..\src\core\NativeTexture.cpp ..\..\src\core\Object.cpp ..\..\src\core\oxygine.cpp ..\..\src\core\Renderer.cpp ..\..\src\core\Restorable.cpp ..\..\src\core\STDFileSystem.cpp ..\..\src\core\system_data.cpp ..\..\src\core\Texture.cpp ..\..\src\core\ThreadDispatcher.cpp ..\..\src\core\UberShaderProgram.cpp ..\..\src\core\VideoDriver.cpp ..\..\src\core\ZipFileSystem.cpp ..\..\src\DebugActor.cpp ..\..\src\dev_tools\DeveloperMenu.cpp ..\..\src\dev_tools\TexturesInspector.cpp ..\..\src\dev_tools\TreeInspector.cpp ..\..\src\dev_tools\TreeInspectorLine.cpp ..\..\src\dev_tools\TreeInspectorPage.cpp ..\..\src\dev_tools\TreeInspectorPreview.cpp ..\..\src\Draggable.cpp ..\..\src\EventDispatcher.cpp ..\..\src\Font.cpp ..\..\src\HttpRequestTask.cpp ..\..\src\Input.cpp ..\..\src\InputText.cpp ..\..\src\json\jsoncpp.cpp ..\..\src\MaskedRenderer.cpp ..\..\src\MaskedSprite.cpp ..\..\src\Material.cpp ..\..\src\MemoryTexture.cpp ..\..\src\PostProcess.cpp ..\..\src\ThreadLoader.cpp ..\..\src\PointerState.cpp ..\..\src\Polygon.cpp ..\..\src\ProgressBar.cpp ..\..\src\res\CreateResourceContext.cpp ..\..\src\res\ResAnim.cpp ..\..\src\res\ResAtlas.cpp ..\..\src\res\ResAtlasGeneric.cpp ..\..\src\res\ResAtlasPrebuilt.cpp ..\..\src\res\ResBuffer.cpp ..\..\src\res\ResFont.cpp ..\..\src\res\ResFontBM.cpp ..\..\src\res\Resource.cpp ..\..\src\res\Resources.cpp ..\..\src\res\ResStarlingAtlas.cpp ..\..\src\Serializable.cpp ..\..\src\Stage.cpp ..\..\src\Serialize.cpp ..\..\src\SlidingActor.cpp ..\..\src\Sprite.cpp ..\..\src\STDMaterial.cpp ..\..\src\STDRenderer.cpp ..\..\src\TextField.cpp ..\..\src\text_utils\Aligner.cpp ..\..\src\text_utils\Node.cpp ..\..\src\text_utils\TextBuilder.cpp ..\..\src\Tween.cpp ..\..\src\TweenAlphaFade.cpp ..\..\src\TweenAnim.cpp ..\..\src\TweenGlow.cpp ..\..\src\TweenOutline.cpp ..\..\src\TweenQueue.cpp ..\..\src\utils\stringUtils.cpp ..\..\src\math\AffineTransform.cpp ..\..\src\pugixml\pugixml.cpp ..\..\src\utils\AtlasTool.cpp ..\..\src\utils\ImageUtils.cpp ..\..\src\VisualStyle.cpp ..\..\src\WebImage.cpp ..\..\src\winnie_alloc\system_alloc.cpp ..\..\src\winnie_alloc\winnie_alloc.cpp
+         winnie_alloc.cpp
+         system_alloc.cpp
+         WebImage.cpp
+         VisualStyle.cpp
+         ImageUtils.cpp
+         AtlasTool.cpp
+         pugixml.cpp
+         AffineTransform.cpp
+         stringUtils.cpp
+         TweenQueue.cpp
+         TweenOutline.cpp
+         TweenGlow.cpp
+         TweenAnim.cpp
+         TweenAlphaFade.cpp
+         Tween.cpp
+         TextBuilder.cpp
+         Node.cpp
+         Aligner.cpp
+         TextField.cpp
+         STDRenderer.cpp
+         Generating Code...
+         Compiling...
+         STDMaterial.cpp
+         Sprite.cpp
+         SlidingActor.cpp
+         Serialize.cpp
+         Stage.cpp
+         Serializable.cpp
+         ResStarlingAtlas.cpp
+         Resources.cpp
+         Resource.cpp
+         ResFontBM.cpp
+         ResFont.cpp
+         ResBuffer.cpp
+         ResAtlasPrebuilt.cpp
+         ResAtlasGeneric.cpp
+         ResAtlas.cpp
+         ResAnim.cpp
+         CreateResourceContext.cpp
+         ProgressBar.cpp
+         Polygon.cpp
+         PointerState.cpp
+         Generating Code...
+         Compiling...
+         ThreadLoader.cpp
+         PostProcess.cpp
+         MemoryTexture.cpp
+         Material.cpp
+         MaskedSprite.cpp
+         MaskedRenderer.cpp
+         jsoncpp.cpp
+         InputText.cpp
+         Input.cpp
+         HttpRequestTask.cpp
+         Font.cpp
+         EventDispatcher.cpp
+         Draggable.cpp
+         TreeInspectorPreview.cpp
+         TreeInspectorPage.cpp
+         TreeInspectorLine.cpp
+         TreeInspector.cpp
+         TexturesInspector.cpp
+         DeveloperMenu.cpp
+         DebugActor.cpp
+         Generating Code...
+         Compiling...
+         ZipFileSystem.cpp
+         VideoDriver.cpp
+         UberShaderProgram.cpp
+         ThreadDispatcher.cpp
+         Texture.cpp
+         system_data.cpp
+         STDFileSystem.cpp
+         Restorable.cpp
+         Renderer.cpp
+         oxygine.cpp
+         Object.cpp
+         NativeTexture.cpp
+         Mutex.cpp
+         Mem2Native.cpp
+         log.cpp
+         ImageDataOperations.cpp
+         ImageData.cpp
+         VideoDriverGLES20.cpp
+         VideoDriverGL.cpp
+         VertexDeclarationGL.cpp
+         Generating Code...
+         Compiling...
+         ShaderProgramGL.cpp
+         oxgl.cpp
+         NativeTextureGLES.cpp
+         FileSystem.cpp
+         file.cpp
+         HttpRequestCurlTask.cpp
+         coroutines.cpp
+         ColorRectSprite.cpp
+         Clock.cpp
+         ClipRectActor.cpp
+         Button.cpp
+         Box9Sprite.cpp
+         Blocking.cpp
+         AsyncTask.cpp
+         AnimationFrame.cpp
+         Actor.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\ /I..\..\third_party\win32\zlib /I..\..\third_party\win32\libjpeg /I..\..\third_party\win32\libpng /I..\..\..\..\SDL\include\ /I..\..\third_party\win32\OGLES /I..\..\third_party\win32\glew /I../../third_party/win32/pthreads/include /I..\..\third_party\win32\curl /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D OXYGINE_SDL /D _WINDOWS /D OX_HAVE_LIBPNG /D OX_HAVE_LIBJPEG /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_v120_xp\\" /Fd"Debug_v120_xp\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\minizip\ioapi.c ..\..\src\minizip\ioapi_mem.c ..\..\src\minizip\unzip.c ..\..\src\utils\cdecode.c
+         cdecode.c
+         unzip.c
+         ioapi_mem.c
+         ioapi.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Repositories\Git\Chess\source\Debug_v120_xp\oxygine_d.lib" libcurl_imp.lib ws2_32.lib libjpeg.lib libpng.lib libzlib.lib opengl32.lib pthreadVCE2.lib SDL2.lib SDL2main.lib /LIBPATH:../../third_party/win32/libraries /LIBPATH:../../..//libs /NOLOGO Debug_v120_xp\Actor.obj
+         Debug_v120_xp\AnimationFrame.obj
+         Debug_v120_xp\AsyncTask.obj
+         Debug_v120_xp\Blocking.obj
+         Debug_v120_xp\Box9Sprite.obj
+         Debug_v120_xp\Button.obj
+         Debug_v120_xp\ClipRectActor.obj
+         Debug_v120_xp\Clock.obj
+         Debug_v120_xp\ColorRectSprite.obj
+         Debug_v120_xp\coroutines.obj
+         Debug_v120_xp\HttpRequestCurlTask.obj
+         Debug_v120_xp\file.obj
+         Debug_v120_xp\FileSystem.obj
+         Debug_v120_xp\NativeTextureGLES.obj
+         Debug_v120_xp\oxgl.obj
+         Debug_v120_xp\ShaderProgramGL.obj
+         Debug_v120_xp\VertexDeclarationGL.obj
+         Debug_v120_xp\VideoDriverGL.obj
+         Debug_v120_xp\VideoDriverGLES20.obj
+         Debug_v120_xp\ImageData.obj
+         Debug_v120_xp\ImageDataOperations.obj
+         Debug_v120_xp\log.obj
+         Debug_v120_xp\Mem2Native.obj
+         Debug_v120_xp\Mutex.obj
+         Debug_v120_xp\NativeTexture.obj
+         Debug_v120_xp\Object.obj
+         Debug_v120_xp\oxygine.obj
+         Debug_v120_xp\Renderer.obj
+         Debug_v120_xp\Restorable.obj
+         Debug_v120_xp\STDFileSystem.obj
+         Debug_v120_xp\system_data.obj
+         Debug_v120_xp\Texture.obj
+         Debug_v120_xp\ThreadDispatcher.obj
+         Debug_v120_xp\UberShaderProgram.obj
+         Debug_v120_xp\VideoDriver.obj
+         Debug_v120_xp\ZipFileSystem.obj
+         Debug_v120_xp\DebugActor.obj
+         Debug_v120_xp\DeveloperMenu.obj
+         Debug_v120_xp\TexturesInspector.obj
+         Debug_v120_xp\TreeInspector.obj
+         Debug_v120_xp\TreeInspectorLine.obj
+         Debug_v120_xp\TreeInspectorPage.obj
+         Debug_v120_xp\TreeInspectorPreview.obj
+         Debug_v120_xp\Draggable.obj
+         Debug_v120_xp\EventDispatcher.obj
+         Debug_v120_xp\Font.obj
+         Debug_v120_xp\HttpRequestTask.obj
+         Debug_v120_xp\Input.obj
+         Debug_v120_xp\InputText.obj
+         Debug_v120_xp\jsoncpp.obj
+         Debug_v120_xp\MaskedRenderer.obj
+         Debug_v120_xp\MaskedSprite.obj
+         Debug_v120_xp\Material.obj
+         Debug_v120_xp\MemoryTexture.obj
+         Debug_v120_xp\ioapi.obj
+         Debug_v120_xp\ioapi_mem.obj
+         Debug_v120_xp\unzip.obj
+         Debug_v120_xp\PostProcess.obj
+         Debug_v120_xp\ThreadLoader.obj
+         Debug_v120_xp\PointerState.obj
+         Debug_v120_xp\Polygon.obj
+         Debug_v120_xp\ProgressBar.obj
+         Debug_v120_xp\CreateResourceContext.obj
+         Debug_v120_xp\ResAnim.obj
+         Debug_v120_xp\ResAtlas.obj
+         Debug_v120_xp\ResAtlasGeneric.obj
+         Debug_v120_xp\ResAtlasPrebuilt.obj
+         Debug_v120_xp\ResBuffer.obj
+         Debug_v120_xp\ResFont.obj
+         Debug_v120_xp\ResFontBM.obj
+         Debug_v120_xp\Resource.obj
+         Debug_v120_xp\Resources.obj
+         Debug_v120_xp\ResStarlingAtlas.obj
+         Debug_v120_xp\Serializable.obj
+         Debug_v120_xp\Stage.obj
+         Debug_v120_xp\Serialize.obj
+         Debug_v120_xp\SlidingActor.obj
+         Debug_v120_xp\Sprite.obj
+         Debug_v120_xp\STDMaterial.obj
+         Debug_v120_xp\STDRenderer.obj
+         Debug_v120_xp\TextField.obj
+         Debug_v120_xp\Aligner.obj
+         Debug_v120_xp\Node.obj
+         Debug_v120_xp\TextBuilder.obj
+         Debug_v120_xp\Tween.obj
+         Debug_v120_xp\TweenAlphaFade.obj
+         Debug_v120_xp\TweenAnim.obj
+         Debug_v120_xp\TweenGlow.obj
+         Debug_v120_xp\TweenOutline.obj
+         Debug_v120_xp\TweenQueue.obj
+         Debug_v120_xp\cdecode.obj
+         Debug_v120_xp\stringUtils.obj
+         Debug_v120_xp\AffineTransform.obj
+         Debug_v120_xp\pugixml.obj
+         Debug_v120_xp\AtlasTool.obj
+         Debug_v120_xp\ImageUtils.obj
+         Debug_v120_xp\VisualStyle.obj
+         Debug_v120_xp\WebImage.obj
+         Debug_v120_xp\system_alloc.obj
+         Debug_v120_xp\winnie_alloc.obj
+     1>ws2_32.lib(WS2_32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl_imp.lib(libcurl.dll); second definition ignored
+     1>ws2_32.lib(WS2_32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libjpeg.lib(jaricom.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>ws2_32.lib(WS2_32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl_imp.lib(libcurl.dll); second definition ignored
+     1>libzlib.lib(zlib.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl_imp.lib(libcurl.dll); second definition ignored
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl_imp.lib(libcurl.dll); second definition ignored
+     1>pthreadVCE2.lib(pthreadVCE2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl_imp.lib(libcurl.dll); second definition ignored
+     1>SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libcurl_imp.lib(libcurl.dll); second definition ignored
+         oxygine.vcxproj -> E:\Repositories\Git\Chess\source\Debug_v120_xp\oxygine_d.lib
+     1>Done Building Project "E:\Repositories\Git\Chess\oxygine-framework\oxygine\SDL\win32\oxygine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:15.48
