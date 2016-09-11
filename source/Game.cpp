@@ -46,6 +46,7 @@ int Game::mainloop()
 	{
 		Color clearColor(32, 32, 32, 255);
 		Rect viewport(Point(0, 0), core::getDisplaySize());
+		
 		// Render all actors inside the stage. Actor::render will also be called for all its children
 		getStage()->render(clearColor, viewport);
 
@@ -62,7 +63,7 @@ void Game::run()
 
 	// Initialize Oxygine's internal stuff
 	core::init_desc desc;
-	desc.title = "Oxygine Application";
+	desc.title = "Chess";
 
 #if OXYGINE_SDL || OXYGINE_EMSCRIPTEN
 	// The initial window size can be set up here on SDL builds
@@ -71,10 +72,8 @@ void Game::run()
 	// Marmalade settings can be modified from the emulator's menu
 #endif
 
-
 	preinit();
 	core::init(&desc);
-
 
 	// Create the stage. Stage is a root node for all updateable and drawable objects
 	Stage::instance = new Stage(true);
@@ -107,6 +106,7 @@ void Game::run()
 		if (done)
 			break;
 	}
+	
 	/*
 	If we get here, the user has requested the Application to terminate.
 	We dump and log all our created objects that have not been freed yet
@@ -122,7 +122,6 @@ void Game::run()
 
 	// See example.cpp for the shutdown function implementation
 	destroy();
-
 
 	//renderer.cleanup();
 
@@ -158,11 +157,9 @@ void Game::init()
 
 void Game::destroy()
 {
-	//board.free();
-	//res.free();
-
 	m_scene.release();
 }
+
 void Game::update()
 {
 	m_match->update();
